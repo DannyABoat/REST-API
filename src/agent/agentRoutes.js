@@ -8,7 +8,7 @@ agentRouter.get("/agent", findAgent);
 agentRouter.put("/agent", updateAgent);
 agentRouter.delete("/agent", deleteAgent);
 
-userRouter.post("/signIn", login);
+agentRouter.post("/signIn", login);
 
 
 module.exports = agentRouter;
